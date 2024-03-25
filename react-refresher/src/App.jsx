@@ -1,11 +1,10 @@
-import Post from "./components/Post";
+import PostsLists from "./components/PostsList";
 
 function App() {
   return (
     //root element or React Fragment
     <>
-      <Post author="Anthony" body="Hello World" />
-      <Post author="Maximilian" body="Hola Mundo!" />
+      <PostsLists />
     </>
   );
 }
