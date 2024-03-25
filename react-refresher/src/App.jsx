@@ -1,5 +1,13 @@
+import Post from "./components/Post";
+
 function App() {
-  return <h1>Hello World!</h1>;
+  return (
+    //root element or React Fragment
+    <>
+      <Post author="Anthony" body="Hello World" />
+      <Post author="Maximilian" body="Hola Mundo!" />
+    </>
+  );
 }
 
 export default App;
